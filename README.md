@@ -1,6 +1,8 @@
 # Wireless Control System
 
 ![Alt text](ReadMePics/20251023_221256.jpg)
+![Alt text](ReadMePics/20251023_221714.jpg)
+![Alt text](ReadMePics/20251024_153831.jpg)
 
 ## Overview
 This project was tasked by UNSW rocketry's propulsions sub-team to design a wireless module which is used to launch a two stage rocket over a 800m distance and retrieve sensor data.
