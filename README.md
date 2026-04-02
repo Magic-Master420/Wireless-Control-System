@@ -11,6 +11,7 @@ The module is powered by an ESP32-S3-MINI-U1 which features a dual core processo
 
 ## Notes
 - Relays utilized can be connected to mains voltage for high power control. See BOM for part number and search the datasheet for more details on the part.
+- The design includes male breakout headers pins for unused pin connections on the ESP32, you can connect external devices to these pins for control. The header pins also include an I2C bus.
 - The code is written such that the data is transmitted without checking whether or not it has successfully been received on the other end. The transport layer needs to be improved to ensure reliable communication. Here are some recommended transport layer protocols:
   - Stop-And-Wait:     low throughput, low memory
   - Go-Back-N:         High throughput, low memory
