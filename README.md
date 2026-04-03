@@ -10,7 +10,7 @@ This project was tasked by UNSW rocketry's propulsions sub-team to design a wire
 The module is powered by an ESP32-S3-MINI-U1 which features a dual core processor, where each processor can be used for a dedicated function. For wireless communication, it is done over LoRa. An off-the-shelf module is utilized in this design. Other features includes an OLED display for viewing information, battery charging system to make the device modular, relays for high voltage/current control, and ethernet for high bandwidth wired communication.
 
 ## Known issues
-- The wireless charging IC needs two pull up resistors on the battery status indicator pins to correct display battery state. The pins are open drain which is mentioned in the datasheet but I didn't realize I needed them. Update your schematics accordingly.
+- The wireless charging IC needs two pull up resistors on the battery status indicator pins to correctly display battery state. The pins are open drain which is mentioned in the datasheet but I didn't realize I needed them. Update your schematics accordingly.
 - The zener diode implemented on the relay-controls schematic has a breakdown voltage of 4.7V while the anode voltage is 12V and the cathode is about 0V. This caused the supply voltage to constantly be clamped to 4.7V which hinders the functionality of the relays. Remove the zener diode or use a diode with a higher breakdown voltage in your design.
 
 ## Notes
